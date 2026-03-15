@@ -455,21 +455,13 @@ export default function Home() {
             With ITAN Global Publishing, authors can self-publish their works,
             manage their books, and royalties all in one platform.
           </p>
-          <div className="flex justify-center items-center gap-4">
-            <Link
-              href="/blog"
-              className="bg-[#D4A853] hover:bg-[#C49A48] px-6 py-2 rounded font-medium transition-colors"
-            >
-              Read Our Blog
-            </Link>
-            <Link
-              href="https://publish.itan.app/author/sign_up"
-              target="_blank"
-              className="bg-red-700 hover:bg-red-800 px-6 py-2 rounded font-medium transition-colors"
-            >
-              Learn More
-            </Link>
-          </div>
+          <Link
+            href="https://publish.itan.app/author/sign_up"
+            target="_blank"
+            className="bg-red-700 hover:bg-red-800 px-6 py-2 rounded font-medium transition-colors"
+          >
+            Learn More
+          </Link>
         </div>
       </section>
     </div>
